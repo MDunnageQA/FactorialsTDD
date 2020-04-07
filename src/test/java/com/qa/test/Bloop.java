@@ -43,5 +43,5 @@ public class Bloop
 	{
 		assertEquals("None", 0, Factorials.getFactorialNumber(18));
 	}
-	
+
 }
