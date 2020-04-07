@@ -9,7 +9,7 @@ public class Factorials
 		while (j < bigBoiNum)
 		{
 			i++;
-			j = j * i;
+			j = (j * i);
 			if (j == bigBoiNum)
 			{
 				return i;
@@ -19,5 +19,5 @@ public class Factorials
 		i = 0;
 		return i;
 	}
-
+	
 }
